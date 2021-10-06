@@ -1,0 +1,14 @@
+node js download
+open cmd
+node -v (one time)
+npm -v (one time)
+
+firebase 
+npm install --global firebase-tools (one time)
+(short cut)=> npm i -g firebase-tools
+
+firebase -V
+
+firebase login
+firebase init
+firebase deploy

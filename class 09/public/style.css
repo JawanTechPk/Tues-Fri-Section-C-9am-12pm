@@ -1,0 +1,106 @@
+/* ///universal selector/// */
+/* *{
+
+} */
+/* ///type selector/// */
+h1{
+    background-color: royalblue;
+    color:wheat ;
+    font-weight: normal;
+    text-align:center;
+    text-shadow:3px 3px 2px grey;
+    
+}
+/* ///class selector// */
+
+.para{
+    color: tomato;
+    font-size: 100%; 
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* ////id selector/// */
+#para1{
+    color: green;
+    /* font-family:cursive; */
+    font-style: italic;
+    /* text-transform: uppercase; */
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+    text-decoration: underline orangered;
+    line-height: 1.8em;
+    word-spacing: 2em;
+    /* letter-spacing: 1.4em; */
+    
+}
+
+
+.navbar a{
+
+        text-decoration:none ;
+        color: black;
+}
+
+#para1 span{
+    color: orangered;
+    letter-spacing: 1.4em;
+    /* font-size: 25px; */
+}
+
+.newPara{
+    background-color: lightgrey;
+    text-indent: 5.5em;
+    color: indigo;
+
+}
+.newPara:first-letter{
+        color : blue;
+        font-family: cursive;
+        font-size: 20px;        
+}
+
+.newPara::first-line{
+    color: green;
+}
+.navbar a:visited{
+    color: red;
+}
+.navbar a:link{
+    color: brown;
+}
+.navbar a:active{
+    background-color: salmon;
+}
+
+.navbar a:hover{
+    background-color: springgreen;
+    /* color: ; */
+    /* font-family: ;
+    font-size: ;
+    font-weight: ; */
+}
+
+button{
+    background-color: steelblue;
+    color: white;
+}
+button:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+}
+
+input{
+    background-color: grey;
+}
+input:focus{
+    background-color: white;
+}
+input::placeholder{
+    
+    color: white;
+
+
+
+}

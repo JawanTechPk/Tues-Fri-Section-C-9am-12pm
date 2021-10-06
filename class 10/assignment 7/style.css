@@ -1,0 +1,61 @@
+.header{
+    background-color: coral;
+    /* display: inline-block; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    /* display: inline-block; */
+}
+.navLinks{
+    /* display: inline-block; */
+    /* border: 1px solid red; */
+    /* width: 300px; */
+    /* margin: 0 auto; */
+}
+.navLinks a{
+    color: white;
+    font-size: 22px;
+    font-family: cursive;
+    margin:0  10px;     
+}
+.heading{
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    
+}
+.heading h1{
+    margin: 0 auto;
+    width: 250px;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    
+}
+.cardBox{
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+.card{
+    border: 1px solid lightgray;
+    max-width: 250px;
+    display: inline-block;
+    margin: 0 30px;
+    background-color: lightcyan;
+}
+.card p{
+    margin:15px 10px;
+    font-family: cursive;
+    font-weight: bold;
+}
+.body{
+    background-color: lightskyblue;
+}
+.footer{
+    background-color: coral;
+    padding: 8px;
+    text-align: center  ;
+}

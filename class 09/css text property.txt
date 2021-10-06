@@ -1,0 +1,24 @@
+font-family
+font-size
+font-weight
+font-style
+text-transform
+text-decoration
+line-height
+letter-spacing, word-spacing
+text-align
+text-indent
+text-shadow
+:first-letter, :first-line	 
+:active , :focus :hover , :link , :visited
+
+
+
+Jaffar (word)
+j (letter)
+
+
+		asjdasjkdahsdgjh
+ajsfhagshjfjgkjahflkauidjhasjdhja
+asdjkghfdgsafjadffjaj
+

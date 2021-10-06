@@ -1,0 +1,171 @@
+h1{
+    color: white;
+    background-color: royalblue;
+}
+
+.unorder{
+    border: 1px solid black;
+}
+
+.unorder li{
+    border: 1px solid brown;
+    /* list-style-type:decimal ;
+    list-style-position: inside; */
+    /* display: inline;     */
+    /* list-style-image: url("star.png"); */
+    /* margin: 10px 20px; */
+
+
+
+
+
+}
+
+
+
+
+
+.mytable{
+    border-collapse: collapse;
+    
+    border: 1px solid black;
+}
+.mytable td{
+    border: 1px solid black;
+    padding: 5px;
+    empty-cells: hide;
+
+    
+}
+
+
+.mytable tr:nth-child(even){
+        background-color: lightgreen;
+}
+
+.mytable tr:nth-child(odd):hover{
+    
+    background-color: lightpink;
+}
+
+.mytable td:hover{
+    background-color: orangered;
+}
+
+.mytable th{
+    /* border: 1px solid red; */
+    background-color: grey;
+   
+}
+.myDiv{
+    width: 100%;
+    min-height: 100vh;
+    border: 1px solid black ;
+    background-image: url("apple.jpg");
+    background-position:center    ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+        
+}
+.myDiv p {
+    margin-top: 500px;
+}
+/* input{
+    display: block; 
+    margin: 10px 0;
+    outline: none; */
+    /* border: 2px solid brown; */
+    /* padding: 10px; */
+    /* border-radius: 5px; */
+    /* font-family: cursive;
+    border: none;
+    border-bottom:3px solid black ;
+    
+} */
+
+/* input:focus{
+    background-color: black;
+    color: white;
+    border: 3px solid green;
+}
+input::placeholder{
+    color: grey;
+    font-size: 22px;
+    opacity: 1;
+} */
+
+
+/* button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    background-color: lightseagreen;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: large;
+}
+
+button:hover{
+    background-color: limegreen;
+    cursor: pointer;
+}
+
+button:active{
+
+    background-color: red;
+} */
+
+
+.myForm{
+    border: none;
+    /* border: 2px solid saddlebrown; */
+    width: 300px;
+    background-color:lightsalmon ;
+    padding: 0 ;
+    padding: 5px 10px;
+}
+.myForm legend{
+    background-color: coral;
+    padding: 8px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: black;
+    font-family: monospace;
+    font-size: 22px;
+
+}
+.myForm input{
+    display: block;
+    margin: 20px 0;
+    width: 250px;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    outline: none;
+    font-size: 22px;
+    font-family: cursive;
+    background-color: transparent;
+    
+
+}
+
+.myForm button{
+    width: 120px;
+    height: 40px;
+    outline: none;
+    background-color: coral;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-family: cursive;
+    font-size: large;
+    display: block;
+    margin: 0 auto;
+}
+.myForm button:hover{
+    background-color: brown;
+}

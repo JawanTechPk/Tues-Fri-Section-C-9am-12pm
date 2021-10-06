@@ -1,0 +1,129 @@
+*{
+    font-family: 'Stick No Bills', sans-serif;
+}
+
+
+h1{
+    background-color: royalblue;
+    position: sticky;
+    top: 0;
+   
+}
+
+
+.div1{
+    border: 2px solid red;
+}
+
+
+.div2{
+    border: 2px solid lime;
+    /* position: absolute;
+    right: 0;
+    top: 0  ;
+     */
+
+}
+
+/* .div3{
+    border: 2px solid brown;
+    width: 300px;
+    height: 300px;
+    position: relative;
+
+} */
+
+/* .div3 p{
+    background-color: red;
+    color: white;
+    font-size: 22px;
+    width: 150px;
+    position: absolute;
+    right:;
+    left:;
+    bottom:;
+    top:;   
+} */
+
+/* 
+button{
+    background-color: red;
+    color: white;
+    position: fixed;
+    top: 50%;
+} */
+
+.div100{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    /* position: relative; */
+    float: left;
+}
+.div200{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    float: left;
+
+
+}
+
+.div300{
+
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    
+
+
+}
+
+.rowParent{
+    display: flex;
+    justify-content: center;
+}
+
+.img{
+    background-image:url("carimg.jpeg") ;
+    width: 40%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin:10px 5px ;
+    text-align: center;
+
+
+}
+.img2{
+    background-image:url("carimg.jpeg") ;
+    width: 40%;
+    height: 400px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin:10px 5px ;
+
+    
+
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding-top: 80px;
+}
+
+
+.div500{
+        width: 250px;
+        height: 250px;
+        border: 1px solid red;
+        background:linear-gradient( #aa4b6b, #6b6b83, #3b8d99 ) ;
+        
+         /* background-color: #059862; */
+}

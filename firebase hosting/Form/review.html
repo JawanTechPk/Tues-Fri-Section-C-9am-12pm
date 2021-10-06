@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form >
+        <input type="checkbox" name="check" checked> Step 1:Account
+        <input type="checkbox" name="check" checked>  Step 2: Personal Details
+        <input type="checkbox" name="check"  checked> Step 3:You Reviews
+        
+
+    </form>
+
+
+    <form action="http://www.example.org/subscribe.php">
+        <fieldset>
+            <legend>Your Review</legend>
+            <label >
+                <p>How did you hear about us</p>
+                <select >
+                    <option value="Select your optin"  selected hidden>Select your optin</option>
+                    <option value="Facebook">  Facebook</option>
+                    <option value="Instagram">Instagram </option>
+                    <option value="Google"> Google</option>
+                    <option value=" LinkedIn">  LinkedIn</option>
+                </select>
+            </label>
+            <br>
+            <label >
+                <p> Would You Visit Again</p>
+                <input type="radio" value="yed" required name="Visit" checked> 
+                Yes
+                <input type="radio" value="no" required name="Visit">
+                No
+                <input type="radio" value="Maybe" required name="Visit">
+                Maybe
+            </label>
+            <br>
+            <label >
+                Comments:
+                <br>
+                <textarea name="Comment" required cols="30" rows="5" placeholder="Enter Your Comment">Enter Your Comment
+                </textarea>
+            </label>
+            <br>
+            <label >
+                Document:
+                <br>
+                <input type="file" required>
+            </label>
+            <br>
+            <label >
+                <input type="checkbox" checked required>
+                Sing me up for email update
+            </form>
+                <br>
+            </label>
+            <form action="./personal.html">
+            <label >
+                <input type="image" src="./Images/back.png" size="50" height="50">
+            </label>
+           </form>
+
+           <label >
+               <input type="image"  src="./Images/submit.png" size="50" height="50">
+           </label>
+
+
+        </fieldset>
+    
+</body>
+</html>
