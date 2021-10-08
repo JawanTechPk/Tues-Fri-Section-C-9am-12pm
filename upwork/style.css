@@ -1,0 +1,210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li{
+        list-style: none;
+}
+
+.header{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding: 5px 20px;
+    
+}
+.headerBox{
+    
+    border-bottom: 2px solid lightgrey;
+    display: flex;
+
+}
+
+.navLinks{
+    /* border: 1px solid black; */
+    margin: 0 10px;
+
+}
+.navLinks ul {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
+.navLinks ul li{
+    /* border: 1px solid red; */
+    margin: 0 8px;
+}
+
+.navLinks ul li i{
+    font-size: small;
+}
+.userBtns{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid brown;     */
+    margin-left:auto ;
+
+}
+
+.userBtns .search{
+    padding: 8px;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    margin: 0 5px;
+    background-color: lightgrey;
+}
+.userBtns .search i{
+    color: #14A800;
+}
+.userBtns>a{
+        color: grey;
+    margin: 0 5px;
+
+}
+
+.userBtns button{
+    background-color: #14A800;
+    padding: 12px;
+    width: 120px;
+    border-radius: 18px;
+    border: none;
+    outline: none;
+    margin: 0 5px;
+
+}
+.userBtns button a{
+    color: white;
+    
+}
+.userBtns a{
+    text-decoration: none;
+
+}
+
+.navbar{
+    width: 100%;
+    /* border: 3px solid red; */
+    padding: 10px 20px;
+}
+.navbar ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li{
+    color: #65735B;
+}
+.navbar ul li:hover{
+    color: #14A800;
+    cursor: pointer;
+}
+
+
+.topBanner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.content{
+    width: 50%;
+    /* border: 2px solid red; */
+
+}
+.content h1{
+    font-size: 50px;
+    color: #14A800;
+    margin: 10px 0;
+}
+
+.content p{
+    color: #65735B;
+    font-size: 25px;
+    margin: 10px 0;
+    margin-bottom: 20px;
+    }
+
+
+.contentBtn{
+    margin: 15px 0;
+}    
+.contentBtn button{
+    width: 120px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: #14A800;
+    color: white;
+}    
+
+.btn2{
+    background-color: transparent !important;
+    border: 2px solid #14A800 !important;
+    color: #14A800 !important;
+}
+.contentBtn{
+    background-color: none !important;
+}
+
+.bannerImg{
+    /* border: 2px solid green; */
+
+    width: 40%;
+}
+
+.brandLogo{
+    margin: 20px 0;
+    
+}
+.bannerCard{
+    width: 100%;
+    height: 500px;
+    background-image: url("images/find-talent.bf9ad20 (1).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;   
+    background-size: cover;
+    border-radius: 20px;
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 10px 20px;
+}
+.para{
+        color: white;
+}
+.heading1{
+    color: white;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.cardsBody{
+    background-color: #14A800;
+    padding: 10px;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+.cardsBody h1 , .cardsBody p{
+    margin: 20px 0 !important;
+}
+
+.cardsBody:hover{
+    background-color: white;
+    color: #14A800 !important;
+    transition: all 0.6s ease ;
+}
+.cardsBody h1:hover , .cardsBody p:hover {
+        color: #14A800 !important;
+
+}
